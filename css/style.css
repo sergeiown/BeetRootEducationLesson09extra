@@ -1,0 +1,103 @@
+* {
+  -webkit-box-sizing: border-box; /* Firefox */
+  -moz-box-sizing: border-box; /* Safari, Chromium */
+  box-sizing: border-box; /* IE, Opera */
+  transition-property: all;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-in;
+}
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  min-height: 100%;
+  color: rgb(255, 255, 255);
+  font-family: "Lucida Sans Unicode";
+  font-size: 16px;
+  line-height: 19px;
+  background-color: rgb(51, 153, 204);
+  border: 25px solid rgb(43, 129, 172);
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  max-width: 1170px;
+}
+h1 {
+  font-size: 21px;
+  line-height: 25px;
+}
+.cities {
+  padding: 0;
+  font-size: 0;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+}
+.cities li {
+  display: inline-block;
+  font-size: 22px;
+  line-height: 22px;
+  border: 2px solid rgb(255, 255, 255);
+  padding: 26px;
+}
+.cities:hover li {
+  opacity: 0.5;
+}
+.cities:hover li:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.cities p {
+  text-align: center;
+}
+.degrees {
+  font-size: 22px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.cities .lisbon {
+  width: 50%;
+  background-color: rgb(51, 153, 204);
+}
+.cities .paris {
+  width: 25%;
+  background-color: rgb(51, 204, 204);
+}
+.cities .belgrade {
+  width: 25%;
+  background-color: rgb(153, 102, 153);
+}
+.cities .venice {
+  width: 25%;
+  background-color: rgb(194, 71, 71);
+}
+.cities .tel-aviv {
+  width: 25%;
+  background-color: rgb(226, 103, 74);
+}
+.cities .cair {
+  width: 25%;
+  background-color: rgb(255, 204, 102);
+}
+.cities .new-york {
+  width: 25%;
+  background-color: rgb(153, 204, 153);
+}
+.cities .new-delhi {
+  width: 25%;
+  background-color: rgb(102, 153, 153);
+}
+.cities .san-francisco {
+  width: 50%;
+  background-color: rgb(204, 102, 153);
+}
+.cities .tokyo {
+  width: 25%;
+  background-color: rgb(51, 153, 102);
+}
+.cities .sydney {
+  width: 100%;
+  background-color: rgb(102, 102, 153);
+}
