@@ -36,7 +36,7 @@ h1 {
   background-color: rgb(255, 255, 255);
 }
 .cities li {
-  display: inline-block;
+  display: inline-block; /*ставлю вместо inline для возможности указывать размеры блока*/
   font-size: 22px;
   line-height: 22px;
   border: 2px solid rgb(255, 255, 255);
