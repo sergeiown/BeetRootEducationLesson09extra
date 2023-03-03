@@ -16,4 +16,4 @@ _LMS Beetroot Academy progress_
 - Іконки беремо звідси - [посилання](https://erikflowers.github.io/weather-icons/)
 - Для плавних анімацій використовуємо CSS-код: `*{transition: all .1s ease-in;}`
 
-![screenshot](./img/forecast.png)
+![image](https://user-images.githubusercontent.com/112722061/222791258-200843aa-d697-4dd5-91fa-d08bad0daa0b.png)
